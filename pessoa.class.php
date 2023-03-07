@@ -34,7 +34,7 @@ class Pessoa{
     public function setBairro($bairro){
         $this->bairro = $bairro;
     }
-     //Método de alteração de valor do objeto
+     //Método de captura de valor do objeto
     public function getCep(){
         return $this->cep;
     }
@@ -42,7 +42,7 @@ class Pessoa{
     public function setCep($cep){
         $this->cep = $cep;
     }
-     //Método de alteração de valor do objeto
+     //Método de captura de valor do objeto
     public function getCidade(){
         return $this->cidade;
     }
@@ -50,7 +50,7 @@ class Pessoa{
     public function setCidade($cidade){
         $this->cidade = $cidade;
     }
-     //Método de alteração de valor do objeto
+     //Método de captura de valor do objeto
     public function getEstado(){
         return $this->estado;
     }
