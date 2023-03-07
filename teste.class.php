@@ -34,10 +34,10 @@ class Teste{
          //Imprimir o valor do método getCidade
          echo $pessoa->getCidade();
 
-          //Passar um valor para o método setEstado
-        $pessoa->setEstado($_POST['estado'] . "<br>");
-        //Imprimir o valor do método getEstado
-        echo $pessoa->getEstado();
+         //Passar um valor para o método setEstado
+         $pessoa->setEstado($_POST['estado'] . "<br>");
+         //Imprimir o valor do método getEstado
+         echo $pessoa->getEstado();
         
     }
     //Instância
